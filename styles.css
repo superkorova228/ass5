@@ -1,0 +1,43 @@
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: #f8e8ff; 
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+textarea[id="message"],
+textarea[id="bMessage"],
+select {
+  background-color: #fff7d6; 
+  border: 2px solid #c37aff; 
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  transition: 0.3s;
+  font-family: "Comic Sans MS", cursive;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  font-family: "Comic Sans MS", cursive;
+  background-color: #d39aff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #9c27b0;
+}
+
